@@ -33,4 +33,8 @@ public class NyPizza extends Pizza{
         super(builder);
         size = builder.size;
     }
+
+    public static void main(String[] args) {
+        NyPizza nyPizza = new NyPizza.Builder(Size.SMALL)
+    }
 }
